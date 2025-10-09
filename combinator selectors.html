@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Food & Drink Menu</title>
+    <style>
+        .parent h1 {
+            color: darkred;
+        }
+
+        .parent > h2 {
+            color: darkblue;
+        }
+
+        h1 + h2 {
+            color: seagreen;
+        }
+
+        h1 ~ h2 {
+            color: darkslateblue;
+        }
+
+        .child p {
+            color: maroon;
+        }
+
+        .child > h5 {
+            color: orange;
+        }
+
+        h2 + h3 {
+            color: darkgreen;
+        }
+        h3 ~ p {
+            color: dimgray;
+        }
+
+        h3 + p {
+            color: rgb(103, 103, 5);
+        }
+
+        h2 ~ h5 {
+            color: red;
+        }
+
+        .drinks h4 {
+            color: purple;
+        }
+
+        .drinks > p {
+            color: darkolivegreen;
+            
+        }
+
+        .child ul li {
+            color: teal;
+        }
+       
+        .parent {
+            color: rgb(19, 18, 18);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h1 class="main-title">Gourmet Menu</h1>
+        <h2>Appetizers</h2>
+        <h1 class="special">Truffle Risotto</h1>
+        <h2>Seafood Salad</h2>
+        <h5>Chef's Recommendation</h5>
+
+        <div class="child">
+            <p>Classic Bruschetta</p>
+            <h5>Fresh Oysters</h5>
+            <h2>Clam Chowder</h2>
+            <ul>
+                <li>Garlic Bread</li>
+                <li>Extra Cheese</li>
+            </ul>
+        </div>
+
+        <p>Seasonal Fruit Tart</p>
+        <h2>Dessert Specials</h2>
+
+        <h3>Chocolate Lava Cake</h3>
+        <p>Warm, gooey center with vanilla ice cream.</p>
+
+        <h3>Crème Brûlée</h3>
+        <p>Classic French dessert with caramelized sugar crust.</p>
+
+        <div class="drinks">
+            <h2>Beverages</h2>
+            <h4>Coffee</h4>
+            <p>Espresso, Latte, Cappuccino</p>
+            <h4>Tea</h4>
+            <p>Green, Earl Grey, Chamomile</p>
+            <h4>Soft Drinks</h4>
+            <p>Cola, Lemonade, Ginger Ale</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
